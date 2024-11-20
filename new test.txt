@@ -1,0 +1,30 @@
+11/19/2024  08:25 PM    <DIR>          ..
+11/19/2024  06:24 PM    <DIR>          testRepository
+               0 File(s)              0 bytes
+               3 Dir(s)  935,130,316,800 bytes free
+
+C:\Users\fishe\projects>cd testRepository
+
+C:\Users\fishe\projects\testRepository>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\fishe\projects\testRepository>git commit -m "first commit"
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\fishe\projects\testRepository>git branch -M main
+
+C:\Users\fishe\projects\testRepository>git remote add origin https://github.com/emily01301982/testRepository.git
+
+C:\Users\fishe\projects\testRepository>git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 233 bytes | 5.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/emily01301982/testRepository.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\fishe\projects\testRepository>
